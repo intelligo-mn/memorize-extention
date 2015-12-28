@@ -1,6 +1,3 @@
-$( "#header-plugin" ).load( "http://vivinantony.github.io/header-plugin/", function() {
-	$("a.back-to-link").attr("href", "http://www.thelittletechie.com/2015/03/love-heart-animation-using-css3.html#tlt")  
-});
 
 var love = setInterval(function() {
     var r_num = Math.floor(Math.random() * 40) + 1;
