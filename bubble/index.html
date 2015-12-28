@@ -1,0 +1,114 @@
+
+<html>
+	<head>
+		<title>Bubble shooter</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+		.info{
+			background-color: silver;
+			color: black;
+			font-size: 24px;
+			padding: 10px 20px;
+		}
+		#display{
+			background: #000;
+			width: 100%;
+			height: 100%;
+			position: relative;
+		}
+		.bubble{
+			position: absolute;
+			left: 100px;
+			top: 100px;
+			background-color: #f00;
+			width: 50px;
+			height: 50px;
+			border-radius: 25px;
+		}
+		.bubble div{
+			position: absolute;
+			left: 10px;
+			top: 10px;
+			background-color: #fff;
+			width: 10px;
+			height: 10px;
+			border-radius: 5px;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="info">
+			Үе:<span id="level"></span>
+			Үлдсэн бөмбөлөг:<span id="count"></span>
+		</div>
+		<div id="display"></div>
+		<script>
+		var display = document.getElementById("display");
+		var level = 1;
+		var countSpan = document.getElementById("count");
+		var levelSpan = document.getElementById("level");
+
+		var move = function(){
+			var bubbles = document.getElementsByClassName("bubble");
+			for (var i = 1; i < bubbles.length; i++) {
+				var left = parseInt(bubbles[i].style.left);
+				var top = parseInt(bubbles[i].style.top);
+				if (left + bubbles[i].moveX > display.clientWidth - 50 || left + bubbles[i].moveX < 0) 
+					bubbles[i].moveX *= -1;
+				if (top + bubbles[i].moveY > display.clientHeight - 50 || top + bubbles[i].moveY < 0)
+					bubbles[i].moveY *= -1;
+				bubbles[i].style.left = left + bubbles[i].moveX;
+				bubbles[i].style.top = top + bubbles[i].moveY;
+			}
+		};
+
+		var beginGame = function() {
+			for(var i = 0; i < 9+level; i++){
+				var bubble = document.createElement("div");
+				var light = document.createElement("div");
+				bubble.className = "bubble";
+				bubble.appendChild(light);
+				bubble.style.left = Math.round(Math.random() * (display.clientWidth - 50));
+				bubble.style.top = Math.round(Math.random() * (display.clientHeight  - 50));
+				bubble.style.backgroundColor = "rgb("+Math.round(Math.random()*256)+","+Math.round(Math.random()*256)+","+Math.round(Math.random()*256)+")";
+				bubble.moveX = Math.random() * 9 + 1;
+				bubble.moveY = Math.random() * 9 + 1;
+
+				bubble.addEventListener("click", function(){
+					display.removeChild(this);
+					countSpan.innerHTML = display.childNodes.length;
+					if(display.childNodes.length == 0){
+						clearInterval("move()");
+						if(confirm("New Level")){
+							level++;
+							beginGame();
+						}
+					}
+				});
+				display.appendChild(bubble);
+			}
+			setInterval("move()",100);
+			countSpan.innerHTML = display.childNodes.length;
+			levelSpan.innerHTML = level;
+		};
+		beginGame();
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
