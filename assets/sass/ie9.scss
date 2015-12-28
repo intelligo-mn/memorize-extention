@@ -1,0 +1,34 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/skel';
+
+/* Wrapper */
+
+	#wrapper {
+		opacity: 1;
+	}
+
+/* Overlay */
+
+	#overlay {
+		opacity: 1;
+	}
+
+/* Header */
+
+	#header {
+		opacity: 1;
+
+		nav {
+			li {
+				opacity: 1;
+			}
+		}
+	}
+
+/* Footer */
+
+	#footer {
+		background-image: url('images/ie/footer.svg');
+	}
