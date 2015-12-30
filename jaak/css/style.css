@@ -1,0 +1,17 @@
+* {background-color:#e74c3c; color:#ecf0f1}
+
+h1 {font-family: 'Lobster', cursive; text-align:center; font-size: 68px}
+
+h3 {font-family: 'Lobster', cursive; text-align:center; font-size: 20px}
+
+
+p {font-family: 'Sunshiney', cursive;  text-indent:70px; text-align:justify;margin-left:90px; margin-right:90px; font-size:60px;}
+
+a:link    {color:green;}
+a:visited {color:green;}
+a:hover   {color:red;}
+a:active  {color:yellow;}
+
+#cover {font-family: 'Lobster', cursive; text-align:center; font-size: 20px; text-size:200px; color:white;}
+
+.endtext {text-align:right;}
