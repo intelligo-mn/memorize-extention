@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{% block title %} My base template {% endblock %}</title>
+        <style type="text/css">
+            body{
+                text-align:center;
+            }
+            
+            #page {
+                width:960px;
+                text-align:left;
+                margin: 10px auto 20px auto;
+                background-color:white;
+            }
+            
+            #sidebar {
+                float: left;
+                width: 200px;
+                border: 1px solid black;
+            }
+            
+            #content {
+                float: left;
+                width: 600px;
+                border: 1px solid black;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id = "page">
+            <div id = "sidebar">
+                {% block sidebar %}
+                <ul>
+                    <li><a href="/blogs/all">Blogs</a></li>
+                    <li><a href="/admin/">Admin</a></li>
+                </ul>
+                {% endblock %}
+
+            </div>
+            <div id = "content">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+    </body>
+</html>
