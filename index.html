@@ -10,6 +10,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body class="loading">
+
 		<div id="wrapper">
 			<div id="bg"></div>
 			<div id="overlay"></div>
@@ -18,7 +19,8 @@
 				<!-- Header -->
 					<header id="header">
 						<h1>Tortuvshin Byambaa</h1>
-						<p>Software engineer &nbsp;&bull;&nbsp; Developer &nbsp;&bull;&nbsp; Never asked for this</p>
+
+						<p>Software engineer &nbsp;&bull;&nbsp; Developer &nbsp;&bull;&nbsp; Coder</p>
 						<nav>
 							<ul>
 								<li><a target="_blank" href="https://twitter.com/TorooProgrammer" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
@@ -28,13 +30,22 @@
 							</ul>
 						</nav>
 					</header>
-
+					
 				<!-- Footer -->
 					<footer id="footer">
 						<span class="copyright">&copy; Web developed: <a href="#">TOROO</a>.</span>
 					</footer>
 
 			</div>
+			<nav id="main-nav">
+			  <div id="nav-button"><span class="fa fa-navicon"></span></div>
+			  <ul id="nav-list">
+			    <li><a href="#">Home</a></li>
+			    <li><a href="#">Profile</a></li>
+			    <li><a href="#">Skills</a></li>
+			    <li><a href="#">Education</a></li>
+			  </ul>
+			</nav>
 		</div>
 		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 		<script>
@@ -42,5 +53,30 @@
 			window.ontouchmove = function() { return false; }
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
 		</script>
+		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script> 
+		<script>
+		// My poor javascript skillz.
+		$('#nav-button').click( function(){
+		    $(this).toggleClass('width');
+		    $(this).parent().toggleClass('show');
+		    $(this).children().toggleClass( 'fa-navicon').toggleClass( 'fa-close');
+		    $('#nav-list').toggleClass('nav-show'); $('#cover').toggleClass('display'); 
+		});
+		</script>
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-36251023-1']);
+		  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+
 	</body>
 </html>

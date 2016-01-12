@@ -664,7 +664,130 @@
 					display: none;
 				}
 
-/* Footer */
+
+	#main-nav {
+	  z-index: 1;
+	  width: 200px;
+	  height: 100%;
+	  position: fixed;
+	  overflow: hidden;
+	  -webkit-transition: background 0.2s ease-in-out;
+	  transition: background 0.2s ease-in-out;
+	}
+
+	#main-nav.show { background: rgb(253, 253, 253); }
+
+	#nav-button {
+	  background: rgb(253, 253, 253);
+	  height: 3em;
+	  width: 3em;
+	  border-radius: 50%;
+	  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+	  top: 1em;
+	  left: 1em;
+	  position: relative;
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;
+	  user-select: none;
+	  color: #444;
+	  -webkit-transition: all 0.3s ease-in-out;
+	  transition: all 0.3s ease-in-out;
+	  overflow: hidden;
+	}
+	#nav-button .fa {
+	  position: absolute;
+	  top: 0;
+	  left: 0.2em;
+	  right: 0;
+	  bottom: 0;
+	  margin: auto;
+	  display: block;
+	  width: 1em;
+	  height: 1em;
+	  font-size: 1em;
+	  opacity: 1;
+	  -webkit-transition: opacity 0.4s ease-in-out;
+	  transition: opacity 0.4s ease-in-out;
+	}
+
+	#nav-button:hover {
+	  cursor: pointer;
+	  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.3);
+	  color: #222;
+	}
+
+	#nav-button.width {
+	  width: 80em;
+	  height: 80em;
+	  top: -37.5em;
+	  left: -37.5em;
+	  box-shadow: none;
+	}
+
+	#nav-button.width:before {
+	  content: '';
+	  display: block;
+	  width: 0.4em;
+	  height: 0.4em;
+	  border-radius: 50%;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	  bottom: 0;
+	  margin: auto;
+	  -webkit-animation: color 0.3s linear;
+	  animation: color 0.3s linear;
+	}
+	 @-webkit-keyframes 
+		color {  0% {
+		 box-shadow: 0;
+		}
+		 30% {
+		 box-shadow: 0 0 10px 25px rgba(12, 121, 137, 0.5);
+		/* feather / spread */
+		}
+		}
+		 @keyframes 
+		color {  0% {
+		 box-shadow: 0;
+		}
+		 30% {
+		 box-shadow: 0 0 10px 25px rgba(12, 121, 137, 0.5);
+		
+		}
+		}
+
+	
+
+		#nav-list {
+		  position: absolute;
+		  top: 7em;
+		  padding: 0 0 0 2em;
+		  opacity: 0;
+		  -webkit-transition: opacity 0.2s ease-in-out;
+		  transition: opacity 0.2s ease-in-out;
+		  width: 100%;
+		  border: 0;
+		}
+
+		#nav-list a {
+		  color: #444;
+		  text-decoration: none;
+		  font-size: 0.9em;
+		  display: block;
+		  width: 100%;
+		  border: 0;
+		  padding: 1.2em 0;
+		  -webkit-transition: color 0.2s ease-in-out;
+		  transition: color 0.2s ease-in-out;
+		}
+
+		#nav-list a:hover { color: #111; }
+
+		#nav-list.nav-show { opacity: 1; }
+	/* Footer */
 
 	#footer {
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
