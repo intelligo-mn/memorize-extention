@@ -50,6 +50,7 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 		
 		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script> 
+		<script src="assets/js/fullscreen.js"></script>
 		<script>
 			window.onload = function() { document.body.className = ''; }
 			window.ontouchmove = function() { return false; }
@@ -63,26 +64,6 @@
 			});
 		</script>
 		
-		<script type="text/javascript">
-		    window.onload = maxWindow;
-		
-		    function maxWindow() {
-		        window.moveTo(0, 0);
-		
-		
-		        if (document.all) {
-		            top.window.resizeTo(screen.availWidth, screen.availHeight);
-		        }
-		
-		        else if (document.layers || document.getElementById) {
-		            if (top.window.outerHeight < screen.availHeight || top.window.outerWidth < screen.availWidth) {
-		                top.window.outerHeight = screen.availHeight;
-		                top.window.outerWidth = screen.availWidth;
-		            }
-		        }
-		    }
-		
-		</script> 
 
 	</body>
 </html>
