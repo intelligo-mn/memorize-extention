@@ -1,0 +1,15 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "tab.html"
+   },
+   "description": "This extension replaces your new tab with a new Memorize word every day",
+   "icons": {
+      "128": "logo.jpg",
+      "16": "logo.jpg",
+      "48": "logo.jpg"
+   },
+   "manifest_version": 2,
+   "name": "Memorize",
+   "permissions": [ "storage" ],
+   "version": "1.0.0"
+}

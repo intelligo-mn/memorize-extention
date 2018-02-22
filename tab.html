@@ -1,0 +1,43 @@
+<!doctype html>
+<html ng-app="MemorizeApp">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <title>Memorize</title>
+	    <script src="assets/jquery.min.js"></script>
+	    <script type="text/javascript" src="assets/colpick/js/colpick.js"></script>
+	    <script src="assets/angular.js"></script>
+	    <link rel="stylesheet" type="text/css" href="css/index.css">
+	    <link rel="stylesheet" type="text/css" href="assets/colpick/css/colpick.css">
+	    <script src="app.min.js"></script>
+	</head>
+	<body ng-controller="mainController as vm" ng-style='{"background": vm.bodyBackground}'>
+		<settings-menu update-colors='vm.updateColors' update-display='vm.updateDisplay'></settings-menu>
+		<notification text-color="vm.wrapperBackground" button-color="vm.bodyBackground"></notification>
+		<div class='mainView'>
+			<onboarding text-color="vm.wrapperBackground" button-color="vm.bodyBackground"></onboarding>
+		    <div id="framer" ng-style='{"border": vm.border}'>
+		      	<div id="wrapper" ng-style='{"background" : vm.wrapperBackground}'>
+		        	<div class="container"
+		        		 ng-if='vm.memorize'
+		        		 ng-style='{"color": vm.bodyBackground }' >
+		        		<p id="character"
+		        		   ng-class="{'one-character': vm.charLength.isOneChar,'two-characters': vm.charLength.isTwoChar, 'three-characters': vm.charLength.isThreeChar, 'four-characters': vm.charLength.isFourChar}"
+		        		   ng-bind="vm.memorize.character"
+									 lang="ja"></p>
+		          		<p id="kunyomi"
+		          		   ng-class="{'kunyomi-one-character': vm.oneCharacter, 'kunyomi-two-characters': !vm.oneCharacter}"
+		          		   ng-style='{"display" : vm.kunyomiDisplay}'
+		          		   ng-bind="vm.memorize.kunyomi"
+										 lang="ja"><p>
+		          		<p id="meaning"
+		          		   ng-style='{"display" : vm.meaningDisplay}'
+		          		   ng-bind="vm.memorize.meanings[0]"></p>
+		        	</div>
+		      	</div>
+		    </div>
+		    <next-memorize list='vm.memorizeList' char-length='vm.charLength'></next-memorize>
+		</div>
+	  <footer-info></footer-info>
+	</body>
+</html>

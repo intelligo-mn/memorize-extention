@@ -1,0 +1,2150 @@
+{"memorize":
+  [
+    {
+      "character": "海",
+      "kunyomi": "うみ",
+      "meanings": ["Далай"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "畑",
+      "kunyomi": "はたけ",
+      "meanings": ["Талбар", "Талбай"],
+      "tags": ["starter"]
+    }, {
+      "character": "村",
+      "kunyomi": "むら",
+      "meanings": ["Тосгон"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "島",
+      "kunyomi": "しま",
+      "meanings": ["Арал"],
+      "tags": ["starter"]
+    }, {
+      "character": "壁",
+      "kunyomi": "かべ",
+      "meanings": ["Хана"],
+      "tags": ["starter"]
+    }, {
+      "character": "店",
+      "kunyomi": "みせ",
+      "meanings": ["Дэлгүүр"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "表",
+      "kunyomi": "ひょう",
+      "meanings": ["Хүснэгт", "Ширээ"],
+      "tags":["starter"]
+    }, {
+      "character": "本",
+      "kunyomi": "ほん",
+      "meanings": ["Ном"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "年",
+      "kunyomi": "とし",
+      "meanings": ["Жил"],
+      "tags": ["starter"]
+    }, {
+      "character": "国",
+      "kunyomi": "くに",
+      "meanings": ["Улс"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "空",
+      "kunyomi": "そら",
+      "meanings": ["Тэнгэр"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "一",
+      "kunyomi": "いち",
+      "meanings": ["Нэг"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "二",
+      "kunyomi": "に",
+      "meanings": ["Хоёр"],
+      "tags": ["starter"]
+    }, {
+      "character": "三",
+      "kunyomi": "さん",
+      "meanings": ["Зурав"],
+      "tags": ["starter"]
+    }, {
+      "character": "四",
+      "kunyomi": "し",
+      "meanings": ["Дөрөв"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "五",
+      "kunyomi": "ご",
+      "meanings": ["Тав"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "六",
+      "kunyomi": "ろく",
+      "meanings": ["Зургаа"],
+      "tags": ["starter"]
+    }, {
+      "character": "七",
+      "kunyomi": "なな",
+      "meanings": ["Долоо"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "八",
+      "kunyomi": "はち",
+      "meanings": ["Найм"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "九",
+      "kunyomi": "きゅう",
+      "meanings": ["Ес"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "十",
+      "kunyomi": "じゅう",
+      "meanings": ["Арав"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "手",
+      "kunyomi": "て",
+      "meanings": ["Гар"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "力",
+      "kunyomi": "ちから",
+      "meanings": ["Хүч чадал"],
+      "tags": ["starter"]
+    }, {
+      "character": "明",
+      "kunyomi": "あきら",
+      "meanings": ["Light"],
+      "tags": ["starter"]
+    }, {
+      "character": "家",
+      "kunyomi": "いえ",
+      "meanings": ["House"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "道",
+      "kunyomi": "みち",
+      "meanings": ["Road"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "朝",
+      "kunyomi": "あさ",
+      "meanings": ["Morning"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "夕",
+      "kunyomi": "ゆう",
+      "meanings": ["Evening"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "夜",
+      "kunyomi": "よる",
+      "meanings": ["Night"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "音",
+      "kunyomi": "おと",
+      "meanings": ["Sound"],
+      "tags": ["starter"]
+    }, {
+      "character": "風",
+      "kunyomi": "かぜ",
+      "meanings": ["Wind"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "紙",
+      "kunyomi": "かみ",
+      "meanings": ["Paper"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "花",
+      "kunyomi": "はな",
+      "meanings": ["Flower"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "色",
+      "kunyomi": "いろ",
+      "meanings": ["Color"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "秋",
+      "kunyomi": "あき",
+      "meanings": ["Autumn"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "夏",
+      "kunyomi": "なつ",
+      "meanings": ["Summer"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "冬",
+      "kunyomi": "ふゆ",
+      "meanings": ["Winter"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "春",
+      "kunyomi": "はる",
+      "meanings": ["Spring"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "旅",
+      "kunyomi": "たび",
+      "meanings": ["Journey"],
+      "tags": ["starter"]
+    }, {
+      "character": "鳥",
+      "kunyomi": "とり",
+      "meanings": ["Bird"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "茶",
+      "kunyomi": "ちゃ",
+      "meanings": ["Tea"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "飯",
+      "kunyomi": "めし",
+      "meanings": ["Food"],
+      "tags": ["starter"]
+    }, {
+      "character": "魚",
+      "kunyomi": "さかな",
+      "meanings": ["Fish"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "金",
+      "kunyomi": "きん",
+      "meanings": ["Gold"],
+      "tags": ["starter"]
+    }, {
+      "character": "銀",
+      "kunyomi": "ぎん",
+      "meanings": ["Silver"],
+      "tags": ["starter"]
+    }, {
+      "character": "市",
+      "kunyomi": "いち",
+      "meanings": ["City"],
+      "tags": ["starter"]
+    },{
+      "character": "雲",
+      "kunyomi": "くも",
+      "meanings": ["Cloud"],
+      "tags": ["starter"]
+    },{
+      "character": "雨",
+      "kunyomi": "あめ",
+      "meanings": ["Rain"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "雪",
+      "kunyomi": "ゆき",
+      "meanings": ["Snow"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "嵐",
+      "kunyomi": "あらし",
+      "meanings": ["Storm"],
+      "tags": ["starter"]
+    },{
+      "character": "服",
+      "kunyomi": "ふく",
+      "meanings": ["Clothes"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "私",
+      "kunyomi": "わたし",
+      "meanings": ["I"],
+      "tags": ["starter"]
+    },{
+      "character": "駅",
+      "kunyomi": "えき",
+      "meanings": ["Station"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "家",
+      "kunyomi": "いえ",
+      "meanings": ["Home"],
+      "tags": ["starter"]
+    },{
+      "character": "水",
+      "kunyomi": "みず",
+      "meanings": ["Water"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "赤",
+      "kunyomi": "あか",
+      "meanings": ["Red (noun)"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "青",
+      "kunyomi": "あお",
+      "meanings": ["Blue (noun)"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "黒",
+      "kunyomi": "くろ",
+      "meanings": ["Black (noun)"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "緑",
+      "kunyomi": "みどり",
+      "meanings": ["Green"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "白",
+      "kunyomi": "しろ",
+      "meanings": ["White (noun)"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "百",
+      "kunyomi": "ひゃく",
+      "meanings": ["100"],
+      "tags": ["starter"]
+    },{
+      "character": "千",
+      "kunyomi": "せん",
+      "meanings": ["1,000"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "万",
+      "kunyomi": "まん",
+      "meanings": ["10,000"],
+      "tags": ["starter"]
+    },{
+      "character": "円",
+      "kunyomi": "えん",
+      "meanings": ["Yen"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "月",
+      "kunyomi": "つき",
+      "meanings": ["Moon"],
+      "tags": ["starter"]
+    },{
+      "character": "何？",
+      "kunyomi": "なに",
+      "meanings": ["What?"],
+      "tags": ["starter"]
+    },{
+      "character": "山",
+      "kunyomi": "やま",
+      "meanings": ["Mountain"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "牛",
+      "kunyomi": "うし",
+      "meanings": ["Cow"],
+      "tags": ["starter"]
+    },{
+      "character": "羽",
+      "kunyomi": "はね",
+      "meanings": ["Feather"],
+      "tags": ["starter"]
+    },{
+      "character": "腕",
+      "kunyomi": "うで",
+      "meanings": ["Arm"],
+      "tags": ["starter"]
+    },{
+      "character": "馬",
+      "kunyomi": "うま",
+      "meanings": ["Horse"],
+      "tags": ["starter"]
+    },{
+      "character": "貝",
+      "kunyomi": "かい",
+      "meanings": ["Shell"],
+      "tags": ["starter"]
+    },{
+      "character": "机",
+      "kunyomi": "つくえ",
+      "meanings": ["Desk"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "坂",
+      "kunyomi": "さか",
+      "meanings": ["Slope"],
+      "tags": ["starter"]
+    },{
+      "character": "皿",
+      "kunyomi": "さら",
+      "meanings": ["Plate"],
+      "tags": ["starter"]
+    },{
+      "character": "三角",
+      "kunyomi": "さん.かく",
+      "meanings": ["Triangle"],
+      "tags": ["starter"]
+    },{
+      "character": "友達",
+      "kunyomi": "とも.だち",
+      "meanings": ["Friend"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "女優",
+      "kunyomi": "じょ.ゆう",
+      "meanings": ["Actress"],
+      "tags": ["starter"]
+    },{
+      "character": "大人",
+      "kunyomi": "おとな",
+      "meanings": ["Adult"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "子供",
+      "kunyomi": "こ.ども",
+      "meanings": ["Child"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "花火",
+      "kunyomi": "はな.び",
+      "meanings": ["Fireworks"],
+      "tags": ["starter"]
+    },{
+      "character": "火山",
+      "kunyomi": "か.ざん",
+      "meanings": ["Volcano"],
+      "tags": ["starter"]
+    },{
+      "character": "水着",
+      "kunyomi": "みず.ぎ",
+      "meanings": ["Swimsuit"],
+      "tags": ["starter"]
+    },{
+      "character": "金",
+      "kunyomi": "かね",
+      "meanings": ["Money"],
+      "tags": ["starter"]
+    },{
+      "character": "物語",
+      "kunyomi": "もの.がたり",
+      "meanings": ["Story"],
+      "tags": ["starter"]
+    },{
+      "character": "名前",
+      "kunyomi": "な.まえ",
+      "meanings": ["Name"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "後ろ",
+      "kunyomi": "うし.ろ",
+      "meanings": ["Behind"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "時間",
+      "kunyomi": "じ.かん",
+      "meanings": ["Time"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "時々",
+      "kunyomi": "とき.どき",
+      "meanings": ["Sometimes"],
+      "tags": ["starter"]
+    },{
+      "character": "先生",
+      "kunyomi": "せん.せい",
+      "meanings": ["Teacher"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "何か",
+      "kunyomi": "なに.か",
+      "meanings": ["Something"],
+      "tags": ["starter"]
+    },{
+      "character": "最高",
+      "kunyomi": "さい.こう",
+      "meanings": ["Highest","Best"],
+      "tags": ["starter"]
+    },{
+      "character": "大学",
+      "kunyomi": "だい.がく",
+      "meanings": ["University"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "気分",
+      "kunyomi": "き.ぶん",
+      "meanings": ["Feeling"],
+      "tags": ["starter"]
+    },{
+      "character": "科学",
+      "kunyomi": "か.がく",
+      "meanings": ["Science"],
+      "tags": ["starter"]
+    },{
+      "character": "天気",
+      "kunyomi": "てん.き",
+      "meanings": ["Weather"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "天才",
+      "kunyomi": "てん.さい",
+      "meanings": ["Genius"],
+      "tags": ["starter"]
+    },{
+      "character": "電車",
+      "kunyomi": "でん.しゃ",
+      "meanings": ["Train"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "電話",
+      "kunyomi": "でん.わ",
+      "meanings": ["Telephone"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "電気",
+      "kunyomi": "でん.き",
+      "meanings": ["Electricity"],
+      "tags":[ "starter", "jlpt5"]
+    },{
+      "character": "新聞",
+      "kunyomi": "しん.ぶん",
+      "meanings": ["Newspaper"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "辞書",
+      "kunyomi": "じ.しょ",
+      "meanings": ["Dictionary"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "旅行",
+      "kunyomi": "りょ.こう",
+      "meanings": ["Travel"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "銀行",
+      "kunyomi": "ぎん.こう",
+      "meanings": ["Bank"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "出口",
+      "kunyomi": "で.ぐち",
+      "meanings": ["Exit"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "入口",
+      "kunyomi": "いり.ぐち",
+      "meanings": ["Entrance"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "説明",
+      "kunyomi": "せつ.めい",
+      "meanings": ["Explanation"],
+      "tags": ["starter"]
+    },{
+      "character": "空港",
+      "kunyomi": "くう.こう",
+      "meanings": ["Airport"],
+      "tags": ["starter"]
+    },{
+      "character": "悪魔",
+      "kunyomi": "あく.ま",
+      "meanings": ["Devil"],
+      "tags": ["starter"]
+    },{
+      "character": "趣味",
+      "kunyomi": "しゅ.み",
+      "meanings": ["Hobby"],
+      "tags": ["starter"]
+    },{
+      "character": "医者",
+      "kunyomi": "い.しゃ",
+      "meanings": ["Doctor"],
+      "tags": ["starter"]
+    },{
+      "character": "家族",
+      "kunyomi": "か.ぞく",
+      "meanings": ["Family"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "音楽",
+      "kunyomi": "おん.がく",
+      "meanings": ["Music"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "写真",
+      "kunyomi": "しゃ.しん",
+      "meanings": ["Photography"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "映画",
+      "kunyomi": "えい.が",
+      "meanings": ["Movie"],
+      "tags": ["starter", "jlpt5"]
+    },{
+      "character": "世界",
+      "kunyomi": "せ.かい",
+      "meanings": ["The world"],
+      "tags": ["starter"]
+    },{
+      "character": "会う",
+      "kunyomi": "あ.う",
+      "meanings": ["To meet"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "青い",
+      "kunyomi": "あお.い",
+      "meanings": ["Blue (adj)"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "赤い",
+      "kunyomi": "あか.い",
+      "meanings": ["Red (adj)"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "明るい",
+      "kunyomi": "あか.るい",
+      "meanings": ["bright","cheerful"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "開ける",
+      "kunyomi": "あ.ける",
+      "meanings": ["To open"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "上げる",
+      "kunyomi": "あ.げる",
+      "meanings": ["To give"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "朝御飯",
+      "kunyomi": "あさ.ご.はん",
+      "meanings": ["Breakfast"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "足",
+      "kunyomi": "あし",
+      "meanings": ["Foot"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "遊ぶ",
+      "kunyomi": "あそ.ぶ",
+      "meanings": ["To play"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "暖かい",
+      "kunyomi": "あたた.かい",
+      "meanings": ["Warm"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "頭",
+      "kunyomi": "あたま",
+      "meanings": ["Head"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "新しい",
+      "kunyomi": "あたら.しい",
+      "meanings": ["New"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "暑い",
+      "kunyomi": "あつ.い",
+      "meanings": ["Hot"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "熱い",
+      "kunyomi": "あつ.い",
+      "meanings": ["Hot (thing)"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "厚い",
+      "kunyomi": "あつ.い",
+      "meanings": ["Thick"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "後",
+      "kunyomi": "あと",
+      "meanings": ["afterwards"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "兄",
+      "kunyomi": "あに",
+      "meanings": ["Older brother"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "姉",
+      "kunyomi": "あね",
+      "meanings": ["Older sister"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "危ない",
+      "kunyomi": "あぶ.ない",
+      "meanings": ["Dangerous"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "甘い",
+      "kunyomi": "あまい",
+      "meanings": ["Generous"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "洗う",
+      "kunyomi": "あら.う",
+      "meanings": ["To wash"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "歩く",
+      "kunyomi": "ある.く",
+      "meanings": ["To walk"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "言う",
+      "kunyomi": "い.う",
+      "meanings": ["To say"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "行く",
+      "kunyomi": "い.く",
+      "meanings": ["To go"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "池",
+      "kunyomi": "いけ",
+      "meanings": ["Pond"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "医者",
+      "kunyomi": "いしゃ",
+      "meanings": ["Doctor"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "忙しい",
+      "kunyomi": "いそが.しい",
+      "meanings": ["Busy"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "痛い",
+      "kunyomi": "いた.い",
+      "meanings": ["Painful"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "一緒",
+      "kunyomi": "いっしょ",
+      "meanings": ["Together"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "犬",
+      "kunyomi": "いぬ",
+      "meanings": ["Dog"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "今",
+      "kunyomi": "いま",
+      "meanings": ["Now"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "意味",
+      "kunyomi": "い.み",
+      "meanings": ["Meaning"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "妹",
+      "kunyomi": "いもうと",
+      "meanings": ["Younger sister"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "居る",
+      "kunyomi": "い.る",
+      "meanings": ["To exist"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "要る",
+      "kunyomi": "い.る",
+      "meanings": ["To need"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "入れる",
+      "kunyomi": "い.れる",
+      "meanings": ["To put"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "上",
+      "kunyomi": "うえ",
+      "meanings": ["Above"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "薄い",
+      "kunyomi": "うす.い",
+      "meanings": ["Thin"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "歌",
+      "kunyomi": "うた",
+      "meanings": ["Song"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "歌う",
+      "kunyomi": "うたう",
+      "meanings": ["To sing"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "売る",
+      "kunyomi": "う.る",
+      "meanings": ["to sell"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "上着",
+      "kunyomi": "うわ.ぎ",
+      "meanings": ["Coat"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "絵",
+      "kunyomi": "え",
+      "meanings": ["Picture"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "英語",
+      "kunyomi": "えい.ご",
+      "meanings": ["English"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "鉛筆",
+      "kunyomi": "えん.ぴつ",
+      "meanings": ["Pencil"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "多い",
+      "kunyomi": "おお.い",
+      "meanings": ["Many"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "大.きい",
+      "kunyomi": "おおきい",
+      "meanings": ["Big"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "お母さん",
+      "kunyomi": "お.かあ.さん",
+      "meanings": ["Mother"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "お菓子",
+      "kunyomi": "お.か.し",
+      "meanings": ["Candy"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "起きる",
+      "kunyomi": "お.きる",
+      "meanings": ["To wake up"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "置く",
+      "kunyomi": "お.く",
+      "meanings": ["To put"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "奥さん",
+      "kunyomi": "おく.さん",
+      "meanings": ["Wife"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "お皿",
+      "kunyomi": "お.さら",
+      "meanings": ["Plate"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "教える",
+      "kunyomi": "おし.える",
+      "meanings": ["To teach"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "押す",
+      "kunyomi": "お.す",
+      "meanings": ["To press"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "遅い",
+      "kunyomi": "おそ.い",
+      "meanings": ["Late"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "お手洗い",
+      "kunyomi": "お.て.あら.い",
+      "meanings": ["Toilet"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "お父さん",
+      "kunyomi": "お.とう.さん",
+      "meanings": ["Father"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "弟",
+      "kunyomi": "おとうと",
+      "meanings": ["Younger brother"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "男",
+      "kunyomi": "おとこ",
+      "meanings": ["Man"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "男の子",
+      "kunyomi": "おとこ.の.こ",
+      "meanings": ["Boy"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "同じ",
+      "kunyomi": "おな.じ",
+      "meanings": ["Same"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "お風呂",
+      "kunyomi": "お.ふろ",
+      "meanings": ["Bath"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "弁当",
+      "kunyomi": "べん.とう",
+      "meanings": ["Lunch box"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "覚える",
+      "kunyomi": "おぼ.える",
+      "meanings": ["To remember"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "重い",
+      "kunyomi": "おも.い",
+      "meanings": ["Heavy"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "泳ぐ",
+      "kunyomi": "およ.ぐ",
+      "meanings": ["To swim"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "終る",
+      "kunyomi": "おわ.る",
+      "meanings": ["To finish"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "女",
+      "kunyomi": "おんな",
+      "meanings": ["Woman"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "女の子",
+      "kunyomi": "おんな.の.こ",
+      "meanings": ["Girl"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "外国",
+      "kunyomi": "がい.こく",
+      "meanings": ["Foreign country"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "会社",
+      "kunyomi": "かい.しゃ",
+      "meanings": ["Company"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "階段",
+      "kunyomi": "かい.だん",
+      "meanings": ["Stairs"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "買い物",
+      "kunyomi": "か.い.もの",
+      "meanings": ["Shopping"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "買う",
+      "kunyomi": "かう",
+      "meanings": ["To buy"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "返す",
+      "kunyomi": "かえ.す",
+      "meanings": ["To return something"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "帰る",
+      "kunyomi": "かえ.る",
+      "meanings": ["To go back home"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "顔",
+      "kunyomi": "かお",
+      "meanings": ["Face"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "書く",
+      "kunyomi": "か.く",
+      "meanings": ["To write"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "学生",
+      "kunyomi": "がく.せい",
+      "meanings": ["Student"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "傘",
+      "kunyomi": "かさ",
+      "meanings": ["Umbrella"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "貸す",
+      "kunyomi": "か.す",
+      "meanings": ["To lend"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "風邪",
+      "kunyomi": "かぜ",
+      "meanings": ["Cold (illness)"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "方",
+      "kunyomi": "かた",
+      "meanings": ["Person"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "片仮名",
+      "kunyomi": "かた.か.な",
+      "meanings": ["Katakana"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "学校",
+      "kunyomi": "がっこう",
+      "meanings": ["School"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "角",
+      "kunyomi": "かど",
+      "meanings": ["Corner"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "花瓶",
+      "kunyomi": "かびん",
+      "meanings": ["Vase"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "火曜日",
+      "kunyomi": "か.よう.び",
+      "meanings": ["Tuesday"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "辛い",
+      "kunyomi": "から.い",
+      "meanings": ["Spicy"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "体",
+      "kunyomi": "からだ",
+      "meanings": ["Body"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "借りる",
+      "kunyomi": "かりる",
+      "meanings": ["To buy"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "川",
+      "kunyomi": "かわ",
+      "meanings": ["River"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "漢字",
+      "kunyomi": "かん.じ",
+      "meanings": ["Kanji"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "木",
+      "kunyomi": "き",
+      "meanings": ["Tree"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "黄色",
+      "kunyomi": "きい.ろ",
+      "meanings": ["Yellow (noun)"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "黄色い",
+      "kunyomi": "きい.ろ.い",
+      "meanings": ["Yellow (adj)"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "聞く",
+      "kunyomi": "き.く",
+      "meanings": ["To hear"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "北",
+      "kunyomi": "きた",
+      "meanings": ["North"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "汚い",
+      "kunyomi": "きたない",
+      "meanings": ["Dirty"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "切手",
+      "kunyomi": "き.って",
+      "meanings": ["Stamp"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "切符",
+      "kunyomi": "き.っぷ",
+      "meanings": ["Ticket"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "昨日",
+      "kunyomi": "き.のう",
+      "meanings": ["Yesterday"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "牛肉",
+      "kunyomi": "ぎゅう.にく",
+      "meanings": ["Beef"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "牛乳",
+      "kunyomi": "ぎゅう.にゅう",
+      "meanings": ["Milk"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "今日",
+      "kunyomi": "きょう",
+      "meanings": ["Today"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "教室",
+      "kunyomi": "きょう.しつ",
+      "meanings": ["Classroom"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "兄弟",
+      "kunyomi": "きょう.だい",
+      "meanings": ["Siblings"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "嫌い",
+      "kunyomi": "きら.い",
+      "meanings": ["To dislike"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "切る",
+      "kunyomi": "きる",
+      "meanings": ["To cut"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "着る",
+      "kunyomi": "き.る",
+      "meanings": ["To wear"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "金曜日",
+      "kunyomi": "きん.よう.び",
+      "meanings": ["Friday"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "薬",
+      "kunyomi": "くすり",
+      "meanings": ["Medicine"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "果物",
+      "kunyomi": "くだ.もの",
+      "meanings": ["Fruit"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "口",
+      "kunyomi": "くち",
+      "meanings": ["Mouth"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "靴",
+      "kunyomi": "くつ",
+      "meanings": ["Shoes"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "靴下",
+      "kunyomi": "くつした",
+      "meanings": ["Socks"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "暗い",
+      "kunyomi": "くら.い",
+      "meanings": ["Dark"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "来る",
+      "kunyomi": "く.る",
+      "meanings": ["to come"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "車",
+      "kunyomi": "くるま",
+      "meanings": ["Car"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "警官",
+      "kunyomi": "けい.かん",
+      "meanings": ["Policeman"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "消す",
+      "kunyomi": "け.す",
+      "meanings": ["To erase"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "結構",
+      "kunyomi": "けっ.こう",
+      "meanings": ["Good"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "結婚",
+      "kunyomi": "けっ.こん",
+      "meanings": ["Marriage"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "月曜日",
+      "kunyomi": "げつ.よう.び",
+      "meanings": ["Monday"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "元気",
+      "kunyomi": "げん.き",
+      "meanings": ["Health"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "公園",
+      "kunyomi": "こう.えん",
+      "meanings": ["Park"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "交差点",
+      "kunyomi": "こう.さ.てん",
+      "meanings": ["Intersection"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "声",
+      "kunyomi": "こえ",
+      "meanings": ["Voice"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "答える",
+      "kunyomi": "こた.える",
+      "meanings": ["To answer"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "言葉",
+      "kunyomi": "こと.ば",
+      "meanings": ["Word"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "御飯",
+      "kunyomi": "ご.はん",
+      "meanings": ["Rice"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "困る",
+      "kunyomi": "こま.る",
+      "meanings": ["To be worried"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "今月",
+      "kunyomi": "こん.げつ",
+      "meanings": ["This month"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "今週",
+      "kunyomi": "こん.しゅう",
+      "meanings": ["This week"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "今晩",
+      "kunyomi": "こん.ばん",
+      "meanings": ["This evening"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "今朝",
+      "kunyomi": "け.さ",
+      "meanings": ["This morning"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "今年",
+      "kunyomi": "こ.とし",
+      "meanings": ["This year"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "財布",
+      "kunyomi": "さい.ふ",
+      "meanings": ["Wallet"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "咲く",
+      "kunyomi": "さ.く",
+      "meanings": ["To bloom"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "作文",
+      "kunyomi": "さく.ぶん",
+      "meanings": ["Writing (noun)"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "差す",
+      "kunyomi": "さ.す",
+      "meanings": ["To raise"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "雑誌",
+      "kunyomi": "ざっし",
+      "meanings": ["Magazine"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "砂糖",
+      "kunyomi": "さ.とう",
+      "meanings": ["Sugar"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "寒い",
+      "kunyomi": "さむ.い",
+      "meanings": ["Cold (weather)"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "塩",
+      "kunyomi": "しお",
+      "meanings": ["Salt"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "仕事",
+      "kunyomi": "し.ごと",
+      "meanings": ["Work (noun)"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "静か",
+      "kunyomi": "しずか",
+      "meanings": ["Calm"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "下",
+      "kunyomi": "した",
+      "meanings": ["Below"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "質問",
+      "kunyomi": "しつ.もん",
+      "meanings": ["Question"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "自転車",
+      "kunyomi": "じ.てん.しゃ",
+      "meanings": ["Bicycle"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "死ぬ",
+      "kunyomi": "しぬ",
+      "meanings": ["To die"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "閉める",
+      "kunyomi": "し.める",
+      "meanings": ["To close"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "締める",
+      "kunyomi": "し.める",
+      "meanings": ["To tie"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "授業",
+      "kunyomi": "じゅ.ぎょう",
+      "meanings": ["Lesson"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "宿題",
+      "kunyomi": "しゅ.くだい",
+      "meanings": ["Homework"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "上手",
+      "kunyomi": "じょう.ず",
+      "meanings": ["Skill"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "丈夫",
+      "kunyomi": "じょう.ぶ",
+      "meanings": ["Strong"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "知る",
+      "kunyomi": "し.る",
+      "meanings": ["To know"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "白い",
+      "kunyomi": "しろい",
+      "meanings": ["White (adj)"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "水曜日",
+      "kunyomi": "すい.よう.び",
+      "meanings": ["Wednesday"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "吸う",
+      "kunyomi": "す.う",
+      "meanings": ["To smoke"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "住む",
+      "kunyomi": "すむ",
+      "meanings": ["To reside"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "座る",
+      "kunyomi": "すわ.る",
+      "meanings": ["To sit"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "石鹸",
+      "kunyomi": "せ.っけん",
+      "meanings": ["Soap"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "背広",
+      "kunyomi": "せ.びろ",
+      "meanings": ["Business suit"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "先月",
+      "kunyomi": "せん.げつ",
+      "meanings": ["Last month"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "先週",
+      "kunyomi": "せん.しゅう",
+      "meanings": ["Last week"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "洗濯",
+      "kunyomi": "せん.たく",
+      "meanings": ["Washing"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "全部",
+      "kunyomi": "ぜん.ぶ",
+      "meanings": ["All"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "外",
+      "kunyomi": "そと",
+      "meanings": ["Outside"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "大使館",
+      "kunyomi": "たい.し.かん",
+      "meanings": ["Embassy"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "大丈夫",
+      "kunyomi": "だい.じょう.ぶ",
+      "meanings": ["All right"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "大切",
+      "kunyomi": "たい.せつ",
+      "meanings": ["Important"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "台所",
+      "kunyomi": "Kitchen",
+      "meanings": ["だい.どころ"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "高い",
+      "kunyomi": "たか.い",
+      "meanings": ["Expensive"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "立つ",
+      "kunyomi": "た.つ",
+      "meanings": ["To stand"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "建物",
+      "kunyomi": "たて.もの",
+      "meanings": ["Building"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "楽しい",
+      "kunyomi": "たの.しい",
+      "meanings": ["Enjoyable"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "頼む",
+      "kunyomi": "たの.む",
+      "meanings": ["To ask"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "食べ物",
+      "kunyomi": "た.べ.もの",
+      "meanings": ["Food"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "食べる",
+      "kunyomi": "た.べ.る",
+      "meanings": ["To eat"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "卵",
+      "kunyomi": "たまご",
+      "meanings": ["Egg(s)"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "誰",
+      "kunyomi": "だれ",
+      "meanings": ["Who"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "誰か",
+      "kunyomi": "だれ.か",
+      "meanings": ["Someone"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "誕生日",
+      "kunyomi": "たん.じょう.び",
+      "meanings": ["Birthday"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "小さい",
+      "kunyomi": "ちい.さい",
+      "meanings": ["Small"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "近い",
+      "kunyomi": "ちか.い",
+      "meanings": ["Near"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "違う",
+      "kunyomi": "ちが.う",
+      "meanings": ["To differ"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "地下鉄",
+      "kunyomi": "ち.か.てつ",
+      "meanings": ["Subway"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "地図",
+      "kunyomi": "ち.ず",
+      "meanings": ["Map"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "茶色",
+      "kunyomi": "ちゃ.いろ",
+      "meanings": ["Brown (noun)"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "使う",
+      "kunyomi": "つか.う",
+      "meanings": ["To use"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "疲れる",
+      "kunyomi": "つか.れる",
+      "meanings": ["To get tired"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "次",
+      "kunyomi": "つぎ",
+      "meanings": ["Next"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "着く",
+      "kunyomi": "つ.く",
+      "meanings": ["To arrive at"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "作る",
+      "kunyomi": "つく.る",
+      "meanings": ["To make"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "勤める",
+      "kunyomi": "つと.める",
+      "meanings": ["To work for"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "強い",
+      "kunyomi": "つよ.い",
+      "meanings": ["Strong"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "手紙",
+      "kunyomi": "て.がみ",
+      "meanings": ["Letter"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "出る",
+      "kunyomi": "で.る",
+      "meanings": ["To appear"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "戸",
+      "kunyomi": "と",
+      "meanings": ["Door"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "動物",
+      "kunyomi": "どう.ぶつ",
+      "meanings": ["Animal"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "遠い",
+      "kunyomi": "とお.い",
+      "meanings": ["Far"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "時計",
+      "kunyomi": "と.けい",
+      "meanings": ["Watch"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "所",
+      "kunyomi": "ところ",
+      "meanings": ["Place"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "図書館",
+      "kunyomi": "と.しょ.かん",
+      "meanings": ["Library"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "隣",
+      "kunyomi": "となり",
+      "meanings": ["Next to"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "飛ぶ",
+      "kunyomi": "と.ぶ",
+      "meanings": ["To fly"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "土曜日",
+      "kunyomi": "ど.よう.び",
+      "meanings": ["Saturday"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "とり肉",
+      "kunyomi": "とり.にく",
+      "meanings": ["Chicken meat"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "取る",
+      "kunyomi": "と.る",
+      "meanings": ["to take"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "中",
+      "kunyomi": "なか",
+      "meanings": ["Inside"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "長い",
+      "kunyomi": "なが.い",
+      "meanings": ["Long"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "鳴く",
+      "kunyomi": "なく",
+      "meanings": ["To sing"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "無くす",
+      "kunyomi": "な.くす",
+      "meanings": ["To lose something"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "夏休み",
+      "kunyomi": "なつ.やす.み",
+      "meanings": ["Summer vacation"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "習う",
+      "kunyomi": "なら.う",
+      "meanings": ["To learn"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "肉",
+      "kunyomi": "にく",
+      "meanings": ["Meat"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "西",
+      "kunyomi": "にし",
+      "meanings": ["West"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "日曜日",
+      "kunyomi": "にち.よう.び",
+      "meanings": ["Sunday"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "荷物",
+      "kunyomi": "に.もつ",
+      "meanings": ["Luggage"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "庭",
+      "kunyomi": "にわ",
+      "meanings": ["Garden"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "猫",
+      "kunyomi": "ねこ",
+      "meanings": ["Cat"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "寝る",
+      "kunyomi": "ね.る",
+      "meanings": ["To sleep"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "登る",
+      "kunyomi": "のぼ.る",
+      "meanings": ["To climb"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "飲み物",
+      "kunyomi": "の.み.もの",
+      "meanings": ["Beverage"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "飲む",
+      "kunyomi": "の.む",
+      "meanings": ["To drink"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "乗る",
+      "kunyomi": "の.る",
+      "meanings": ["To get on"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "入る",
+      "kunyomi": "はい.る",
+      "meanings": ["To enter"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "葉書",
+      "kunyomi": "は.がき",
+      "meanings": ["Postcard"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "箱",
+      "kunyomi": "はこ",
+      "meanings": ["Box"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "橋",
+      "kunyomi": "はし",
+      "meanings": ["Bridge"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "始まる",
+      "kunyomi": "はじ.まる",
+      "meanings": ["To begin"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "始め",
+      "kunyomi": "はじ.め",
+      "meanings": ["Beginning"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "初めて",
+      "kunyomi": "はじめて",
+      "meanings": ["For the first time"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "走る",
+      "kunyomi": "はし.る",
+      "meanings": ["To run"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "働く",
+      "kunyomi": "はたら.く",
+      "meanings": ["To work"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "鼻",
+      "kunyomi": "はな",
+      "meanings": ["Nose"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "話",
+      "kunyomi": "はなし",
+      "meanings": ["Talk (noun)"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "話す",
+      "kunyomi": "はな.す",
+      "meanings": ["To speak"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "早い",
+      "kunyomi": "はや.い",
+      "meanings": ["Early"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "速い",
+      "kunyomi": "はやい",
+      "meanings": ["Quick"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "半",
+      "kunyomi": "はん",
+      "meanings": ["Half"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "晩",
+      "kunyomi": "ばん",
+      "meanings": ["Evening"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "番号",
+      "kunyomi": "ばん.ごう",
+      "meanings": ["Number"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "東",
+      "kunyomi": "ひがし",
+      "meanings": ["East"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "引く",
+      "kunyomi": "ひ.く",
+      "meanings": ["To pull"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "弾く",
+      "kunyomi": "ひ.く",
+      "meanings": ["To play (instrument)"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "飛行機",
+      "kunyomi": "ひ.こう.き",
+      "meanings": ["Airplane"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "人",
+      "kunyomi": "ひと",
+      "meanings": ["Person"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "暇",
+      "kunyomi": "ひま",
+      "meanings": ["Free time"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "病院",
+      "kunyomi": "びょう.いん",
+      "meanings": ["Hospital"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "病気",
+      "kunyomi": "びょう.き",
+      "meanings": ["Illness"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "平仮名",
+      "kunyomi": "ひら.が.な",
+      "meanings": ["Hiragana"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "昼ご飯",
+      "kunyomi": "ひる.ご.はん",
+      "meanings": ["Lunch"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "広い",
+      "kunyomi": "ひろ.い",
+      "meanings": ["Spacious"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "封筒",
+      "kunyomi": "ふう.とう",
+      "meanings": ["Envelope"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "豚肉",
+      "kunyomi": "ぶた.にく",
+      "meanings": ["Pork"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "古い",
+      "kunyomi": "ふる.い",
+      "meanings": ["Old"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "文章",
+      "kunyomi": "ぶんしょう",
+      "meanings": ["Sentence"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "部屋",
+      "kunyomi": "へ.や",
+      "meanings": ["Room"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "辺",
+      "kunyomi": "へん",
+      "meanings": ["Area"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "勉強",
+      "kunyomi": "べん.きょう",
+      "meanings": ["Study"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "便利",
+      "kunyomi": "べん.り",
+      "meanings": ["Convenient"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "帽子",
+      "kunyomi": "ぼう.し",
+      "meanings": ["Hat"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "細い",
+      "kunyomi": "ほそ.い",
+      "meanings": ["Thin"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "本棚",
+      "kunyomi": "ほん.だな",
+      "meanings": ["Bookshelf"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "毎朝",
+      "kunyomi": "まい.あさ",
+      "meanings": ["Every morning"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "毎月",
+      "kunyomi": "まい.つき",
+      "meanings": ["Monthly"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "毎週",
+      "kunyomi": "まい.しゅう",
+      "meanings": ["Weekly"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "毎日",
+      "kunyomi": "まい.にち",
+      "meanings": ["Daily"],
+      "tags": ["starter","jlpt5"]
+    },{
+      "character": "毎晩",
+      "kunyomi": "まい.ばん",
+      "meanings": ["Every night"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "前",
+      "kunyomi": "まえ",
+      "meanings": ["Before", "in front of"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "曲る",
+      "kunyomi": "まがる",
+      "meanings": ["To turn"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "町",
+      "kunyomi": "まち",
+      "meanings": ["Town"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "待つ",
+      "kunyomi": "ま.つ",
+      "meanings": ["To wait"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "窓",
+      "kunyomi": "まど",
+      "meanings": ["Window"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "丸い",
+      "kunyomi": "まる.い",
+      "meanings": ["Round"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "磨く",
+      "kunyomi": "みが.く",
+      "meanings": ["To brush (teeth)"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "見せる",
+      "kunyomi": "み.せる",
+      "meanings": ["To show"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "皆さん",
+      "kunyomi": "みな.さん",
+      "meanings": ["Everyone"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "南",
+      "kunyomi": "みなみ",
+      "meanings": ["South"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "耳",
+      "kunyomi": "みみ",
+      "meanings": ["Ear"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "見る",
+      "kunyomi": "み.る",
+      "meanings": ["To see"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "向こう",
+      "kunyomi": "む.こう",
+      "meanings": ["Beyond"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "難しい",
+      "kunyomi": "むずか.しい",
+      "meanings": ["Difficult"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "木曜日",
+      "kunyomi": "も.くよう.び",
+      "meanings": ["Thursday"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "物",
+      "kunyomi": "物",
+      "meanings": ["Thing"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "門",
+      "kunyomi": "もん",
+      "meanings": ["Gate"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "問題",
+      "kunyomi": "もん.だい",
+      "meanings": ["Problem"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "野菜",
+      "kunyomi": "や.さい",
+      "meanings": ["Vegetable"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "易しい",
+      "kunyomi": "やさ.しい",
+      "meanings": ["Easy"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "安い",
+      "kunyomi": "やすい",
+      "meanings": ["Cheap"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "休み",
+      "kunyomi": "やす.み",
+      "meanings": ["Rest"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "休む",
+      "kunyomi": "やす.む",
+      "meanings": ["To rest"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "夕飯",
+      "kunyomi": "ゆう.はん",
+      "meanings": ["Dinner"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "郵便局",
+      "kunyomi": "ゆう.びん.きょく",
+      "meanings": ["Post office"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "有名",
+      "kunyomi": "ゆう.めい",
+      "meanings": ["Famous"],
+      "tags": ["starter","jlpt5"]
+    },{
+      "character": "横",
+      "kunyomi": "よこ",
+      "meanings": ["Beyond"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "読む",
+      "kunyomi": "よ.む",
+      "meanings": ["To read"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "弱い",
+      "kunyomi": "よわい",
+      "meanings": ["Weak"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "来月",
+      "kunyomi": "らい.げつ",
+      "meanings": ["Next month"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "来週",
+      "kunyomi": "らい.しゅう",
+      "meanings": ["Next week"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "来年",
+      "kunyomi": "らい.ねん",
+      "meanings": ["Next year"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "両親",
+      "kunyomi": "りょう.しん",
+      "meanings": ["Parents"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "料理",
+      "kunyomi": "りょう.り",
+      "meanings": ["Cooking"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "零",
+      "kunyomi": "れい",
+      "meanings": ["Zero"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "冷蔵庫",
+      "kunyomi": "れい.ぞう.こ",
+      "meanings": ["Refrigirator"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "若い",
+      "kunyomi": "わか.い",
+      "meanings": ["Young"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "分かる",
+      "kunyomi": "わ.かる",
+      "meanings": ["To understand"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "忘れる",
+      "kunyomi": "わす.れる",
+      "meanings": ["To forget"],
+      "tags": ["jlpt5"]
+    },{
+      "character": "悪い",
+      "kunyomi": "わ.るい",
+      "meanings": ["Bad"],
+      "tags": ["jlpt5"]
+    }
+  ]
+}
