@@ -2,7 +2,7 @@
    "chrome_url_overrides": {
       "newtab": "tab.html"
    },
-   "description": "This extension replaces your new tab with a new Memorize word every day",
+   "description": "Япон хэлний үг цээжлэхэд туслах нэмэлт",
    "icons": {
       "128": "logo.jpg",
       "16": "logo.jpg",
