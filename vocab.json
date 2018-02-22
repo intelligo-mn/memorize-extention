@@ -1,7 +1,7 @@
 {"memorize":
   [
     {
-      "japan": "はい",
+      "character": "はい",
       "duudlaga": "хаи",
       "meanings": ["тийм"],
       "tags": ["starter"]
@@ -61,9 +61,74 @@
       "meanings": ["оюутан, сурагч"],
       "tags": ["starter", "jlpt5"]
     }, {
-      "character": "五",
-      "duudlaga": "ご",
-      "meanings": ["Тав"],
+      "character": "だれ",
+      "duudlaga": "дарэ",
+      "meanings": ["хэн"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "とけい",
+      "duudlaga": "токэй",
+      "meanings": ["цаг"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "びょういん",
+      "duudlaga": "бёоин",
+      "meanings": ["эмнэлэг"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "ざっし",
+      "duudlaga": "зашши",
+      "meanings": ["сэтгүүл"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "ほん",
+      "duudlaga": "хон",
+      "meanings": ["ном"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "にほん",
+      "duudlaga": "нихон",
+      "meanings": ["япон"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "にほんご",
+      "duudlaga": "нихонго",
+      "meanings": ["япон хэл"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "じん",
+      "duudlaga": "жин",
+      "meanings": ["хүн"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "にほんじん",
+      "duudlaga": "нихон жин",
+      "meanings": ["япон хүн"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "モンゴルじん",
+      "duudlaga": "монгорү жин",
+      "meanings": ["монгол хүн"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "だれ",
+      "duudlaga": "дарэ",
+      "meanings": ["хэн"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "だれ",
+      "duudlaga": "дарэ",
+      "meanings": ["хэн"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "だれ",
+      "duudlaga": "дарэ",
+      "meanings": ["хэн"],
+      "tags": ["starter", "jlpt5"]
+    }, {
+      "character": "だれ",
+      "duudlaga": "дарэ",
+      "meanings": ["хэн"],
       "tags": ["starter", "jlpt5"]
     }
   ]

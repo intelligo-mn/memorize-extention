@@ -11,13 +11,13 @@
 	    <link rel="stylesheet" type="text/css" href="assets/colpick/css/colpick.css">
 	    <script src="app.min.js"></script>
 	</head>
-	<body ng-controller="mainController as vm" ng-style='{"background": vm.bodyBackground}'>
+	<body ng-controller="mainController as vm">
 		<settings-menu update-colors='vm.updateColors' update-display='vm.updateDisplay'></settings-menu>
 		<notification text-color="vm.wrapperBackground" button-color="vm.bodyBackground"></notification>
 		<div class='mainView'>
 			<onboarding text-color="vm.wrapperBackground" button-color="vm.bodyBackground"></onboarding>
-		    <div id="framer" ng-style='{"border": vm.border}'>
-		      	<div id="wrapper" ng-style='{"background" : vm.wrapperBackground}'>
+		    <div id="framer">
+		      	<div id="wrapper">
 		        	<div class="container"
 		        		 ng-if='vm.memorize'
 		        		 ng-style='{"color": vm.bodyBackground }' >

@@ -2,18 +2,14 @@
     <img src="img/settings-icon.png">
 </div>
 <div id="settings-menu">
-	<a class="settings-link" ng-click="showMemorizeInfo()">Select information to display</a>
+	<a class="settings-link" ng-click="showMemorizeInfo()">Тохиргоо</a>
   	<div id="memorize-info">
-  		<toggle-elt class-name='duudlaga'></toggle-elt><p>duudlaga</p>
+  		<toggle-elt class-name='duudlaga'></toggle-elt><p>Дуудлага</p>
   		<div class="clear-both"></div>
-  		<toggle-elt class-name='meaning'></toggle-elt><p>Meaning</p>
+  		<toggle-elt class-name='meaning'></toggle-elt><p>Орчуулга</p>
   		<div class="clear-both"></div>
   	</div>
-  	<a class="settings-link" ng-click='toggleColorPicker()'>Change color</a>
-  	<div id="picker-wrapper">
-  		<color-pick></color-pick>
-  	</div>
-  	<a class="settings-link" ng-click='toggleList()'>Memorize vocab list - <i>{{ memorizeFactory.data.memorize.length }} words</i></a>
+  	<a class="settings-link" ng-click='toggleList()'>Цээжлэх үгийн жагсаалт - Нийт <i>{{ memorizeFactory.data.memorize.length }} үг</i></a>
   	<div id="list-wrapper">
   		<p ng-repeat='memorize in memorizeFactory.data.memorize'>{{ memorize.character }} - {{ memorize.meanings[0] }}</p>
   	</div>

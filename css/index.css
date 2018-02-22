@@ -20,6 +20,7 @@ body {
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url(/img/back.jpg) !important;
   display: flex;
   align-items: center;
   justify-content: center;
