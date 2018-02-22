@@ -108,15 +108,15 @@ button {
   margin-top: 1rem;
 }
 /* line 61, ../../src/sass/_components.scss */
-.mainView #framer #wrapper .kunyomi-one-character {
+.mainView #framer #wrapper .duudlaga-one-character {
   font-size: 3.4rem;
 }
 /* line 65, ../../src/sass/_components.scss */
-.mainView #framer #wrapper .kunyomi-two-characters {
+.mainView #framer #wrapper .duudlaga-two-characters {
   font-size: 2.8rem;
 }
 /* line 69, ../../src/sass/_components.scss */
-.mainView #framer #wrapper #kunyomi {
+.mainView #framer #wrapper #duudlaga {
   font-weight: 400;
 }
 /* line 73, ../../src/sass/_components.scss */
