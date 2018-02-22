@@ -1,6 +1,6 @@
 ! function() {
     "use strict";
-    angular.module("memorizeApp", [])
+    angular.module("MemorizeApp", [])
 }(),
 function() {
     "use strict";
@@ -18,7 +18,7 @@ function() {
             }), factory.promise
         }, factory
     }
-    angular.module("memorizeApp").factory("memorizeFactory", memorizeFactory), memorizeFactory.$inject = ["$http"]
+    angular.module("MemorizeApp").factory("memorizeFactory", memorizeFactory), memorizeFactory.$inject = ["$http"]
 }(),
 function() {
     "use strict";
@@ -33,7 +33,7 @@ function() {
 
         function applyColors() {
             var colorChanged = localStorage.colorChanged;
-            "changed" == colorChanged ? (vm.bodyBackground = localStorage.savedHex, vm.wrapperBackground = localStorage.savedFrameColor, vm.border = "6px solid " + localStorage.savedFrameColor) : (vm.bodyBackground = "lightpink", vm.wrapperBackground = "white", vm.border = "6px solid white")
+            "changed" == colorChanged ? (vm.bodyBackground = localStorage.savedHex, vm.wrapperBackground = localStorage.savedFrameColor, vm.border = "6px solid " + localStorage.savedFrameColor) : (vm.bodyBackground = "white", vm.wrapperBackground = "white", vm.border = "6px solid white")
         }
 
         function applyDisplay() {
@@ -76,7 +76,53 @@ function() {
             applyDisplay()
         }
     }
-    angular.module("memorizeApp").controller("mainController", mainController), mainController.$inject = ["memorizeFactory", "$scope"]
+    angular.module("MemorizeApp").controller("mainController", mainController), mainController.$inject = ["memorizeFactory", "$scope"]
+}(),
+function() {
+    "use strict";
+
+    function colorPick() {
+        function link(scope, element, attrs, settingsMenuCtrl) {
+            function updateFramingColor(rgb) {
+                var weightedL = calculateLightness(rgb),
+                    rD = calculateDarkness(rgb.r),
+                    gD = calculateDarkness(rgb.g),
+                    bD = calculateDarkness(rgb.b),
+                    rgbDarker = "rgb(" + rD + "," + gD + "," + bD + ")",
+                    whiteTransp = "rgba(255,255,255,0.95)";
+                weightedL > .82 ? (lightColor = !1, localStorage.savedFrameColor = rgbDarker) : (lightColor = !0, localStorage.savedFrameColor = whiteTransp)
+            }
+
+            function calculateLightness(rgb) {
+                var L = .2126 * rgb.r + .7152 * rgb.g + .0722 * rgb.b,
+                    weightedL = L / 255;
+                return weightedL
+            }
+
+            function calculateDarkness(e) {
+                var darkenPercent = 40,
+                    D = Math.round(e * (100 - darkenPercent) / 100);
+                return D
+            }
+            var lightColor;
+            $(".picker").colpick({
+                flat: !0,
+                layout: "hex",
+                submit: 0,
+                onChange: function(hsb, hex, rgb, el, bySetColor) {
+                    localStorage.savedHex = "#" + hex, localStorage.colorChanged = "changed", updateFramingColor(rgb), settingsMenuCtrl.updateColors()
+                }
+            })
+        }
+        var directive = {
+            scope: !0,
+            require: "^settingsMenu",
+            templateUrl: "/app/directives/colorpick.view.html",
+            link: link
+        };
+        return directive
+    }
+    angular.module("MemorizeApp").directive("colorPick", colorPick), colorPick.$inject = []
 }(),
 function() {
     "use strict";
@@ -85,7 +131,7 @@ function() {
         function link(scope, element, attrs) {
             var isToggled = !1;
             scope.toggleFooter = function() {
-                isToggled ? (isToggled = !1, $(".mainView").css("margin-bottom", "0"), $(".info-icon").css("margin-bottom", "0"), $("footer").removeClass("show-footer"), $("footer").empty()) : (isToggled = !0, $(".mainView").css("margin-bottom", "9rem"), $(".info-icon").css("margin-bottom", "9rem"), $("footer").addClass("show-footer"), $("footer").append('<h2>Memorize</h2><div><p>Memorize replaces your new tab with a a new Memorize card. One new card every day. The selection is of regular/daily life words.</p><p>Thanks for using Memorize!</p> <a href="mailto:contact@memorize.com">contact@memorize.com</a></div><a class="twitter-link" href="https://www.twitter.com/memorize_app" target="_blank"><img src="img/twitter.png"></a>'))
+                isToggled ? (isToggled = !1, $(".mainView").css("margin-bottom", "0"), $(".info-icon").css("margin-bottom", "0"), $("footer").removeClass("show-footer"), $("footer").empty()) : (isToggled = !0, $(".mainView").css("margin-bottom", "9rem"), $(".info-icon").css("margin-bottom", "9rem"), $("footer").addClass("show-footer"), $("footer").append('<h2>Memorizeday</h2><div><p>Memorizeday replaces your new tab with a a new Memorize card. One new card every day. The selection is of regular/daily life words.</p><p>Thanks for using Memorizeday!</p> <a href="mailto:contact@memorizeday.com">contact@memorizeday.com</a></div><a class="twitter-link" href="https://www.twitter.com/memorizeday_app" target="_blank"><img src="img/twitter.png"></a>'))
             }
         }
         var directive = {
@@ -95,7 +141,7 @@ function() {
         };
         return directive
     }
-    angular.module("memorizeApp").directive("footerInfo", footerInfo), footerInfo.$inject = []
+    angular.module("MemorizeApp").directive("footerInfo", footerInfo), footerInfo.$inject = []
 }(),
 function() {
     "use strict";
@@ -108,9 +154,9 @@ function() {
                 var memorizeLength = memorizeList[newIndex].character.length;
                 scope.charLength.isOneChar = 1 == memorizeLength, scope.charLength.isTwoChar = 2 == memorizeLength, scope.charLength.isThreeChar = 3 == memorizeLength, scope.charLength.isFourChar = 4 == memorizeLength, $("#character").fadeOut(0, function() {
                     $("#character").text(memorizeList[newIndex].character).fadeIn(300)
-                }), $("#duudlaga").fadeOut(0, function() {
+                }), "block" == localStorage.duudlagaDisplay && $("#duudlaga").fadeOut(0, function() {
                     $("#duudlaga").text(memorizeList[newIndex].duudlaga).fadeIn(300)
-                }), $("#meaning").fadeOut(0, function() {
+                }), "block" == localStorage.meaningDisplay && $("#meaning").fadeOut(0, function() {
                     $("#meaning").text(memorizeList[newIndex].meanings[0]).fadeIn(300)
                 })
             }
@@ -125,7 +171,7 @@ function() {
         };
         return directive
     }
-    angular.module("memorizeApp").directive("nextMemorize", nextMemorize), nextMemorize.$inject = []
+    angular.module("MemorizeApp").directive("nextMemorize", nextMemorize), nextMemorize.$inject = []
 }(),
 function() {
     "use strict";
@@ -146,7 +192,7 @@ function() {
         };
         return directive
     }
-    angular.module("memorizeApp").directive("notification", notification), notification.$inject = []
+    angular.module("MemorizeApp").directive("notification", notification), notification.$inject = []
 }(),
 function() {
     "use strict";
@@ -167,7 +213,7 @@ function() {
         };
         return directive
     }
-    angular.module("memorizeApp").directive("onboarding", onboarding), onboarding.$inject = []
+    angular.module("MemorizeApp").directive("onboarding", onboarding), onboarding.$inject = []
 }(),
 function() {
     "use strict";
@@ -206,7 +252,7 @@ function() {
         };
         return directive
     }
-    angular.module("memorizeApp").directive("settingsMenu", settingsMenu), settingsMenu.$inject = ["memorizeFactory"]
+    angular.module("MemorizeApp").directive("settingsMenu", settingsMenu), settingsMenu.$inject = ["memorizeFactory"]
 }(),
 function() {
     "use strict";
@@ -227,5 +273,5 @@ function() {
         };
         return directive
     }
-    angular.module("memorizeApp").directive("toggleElt", toggleElt), toggleElt.$inject = ["$timeout"]
+    angular.module("MemorizeApp").directive("toggleElt", toggleElt), toggleElt.$inject = ["$timeout"]
 }();
