@@ -8,7 +8,7 @@ function() {
     function memorizeFactory($http) {
         var factory = {};
         factory.loading = !1;
-        var url = "/vocab.json";
+        var url = "https://jisho.techstar.cloud/api";
         return factory.get = function() {
             return factory.loading = !0, factory.promise = $http({
                 url: url,
