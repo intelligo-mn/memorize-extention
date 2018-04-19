@@ -81,25 +81,6 @@ function() {
 function() {
     "use strict";
 
-    function footerInfo() {
-        function link(scope, element, attrs) {
-            var isToggled = !1;
-            scope.toggleFooter = function() {
-                isToggled ? (isToggled = !1, $(".mainView").css("margin-bottom", "0"), $(".info-icon").css("margin-bottom", "0"), $("footer").removeClass("show-footer"), $("footer").empty()) : (isToggled = !0, $(".mainView").css("margin-bottom", "9rem"), $(".info-icon").css("margin-bottom", "9rem"), $("footer").addClass("show-footer"), $("footer").append('<h2>Memorizeday</h2><div><p>Memorizeday replaces your new tab with a a new Memorize card. One new card every day. The selection is of regular/daily life words.</p><p>Thanks for using Memorizeday!</p> <a href="mailto:contact@memorizeday.com">contact@memorizeday.com</a></div><a class="twitter-link" href="https://www.twitter.com/memorizeday_app" target="_blank"><img src="img/twitter.png"></a>'))
-            }
-        }
-        var directive = {
-            scope: !0,
-            templateUrl: "/app/directives/footerInfo.view.html",
-            link: link
-        };
-        return directive
-    }
-    angular.module("MemorizeApp").directive("footerInfo", footerInfo), footerInfo.$inject = []
-}(),
-function() {
-    "use strict";
-
     function nextMemorize() {
         function link(scope, element, attrs) {
             scope.setNewMemorize = function(memorizeList) {
