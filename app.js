@@ -88,9 +88,9 @@ function() {
                 localStorage.lastChangeDate = (new Date).getDate(), localStorage.lastMemorizeIndex = newIndex;
                 var memorizeLength = memorizeList[newIndex].character.length;
                 scope.charLength.isOneChar = 1 == memorizeLength, scope.charLength.isTwoChar = 2 == memorizeLength, scope.charLength.isThreeChar = 3 == memorizeLength, scope.charLength.isFourChar = 4 == memorizeLength, $("#character").fadeOut(0, function() {
-                    $("#character").text(memorizeList[newIndex].character).fadeIn(300)
+                    $("#character").text(memorizeList[newIndex].kanji).fadeIn(300)
                 }), "block" == localStorage.duudlagaDisplay && $("#duudlaga").fadeOut(0, function() {
-                    $("#duudlaga").text(memorizeList[newIndex].duudlaga).fadeIn(300)
+                    $("#duudlaga").text(memorizeList[newIndex].character).fadeIn(300)
                 }), "block" == localStorage.meaningDisplay && $("#meaning").fadeOut(0, function() {
                     $("#meaning").text(memorizeList[newIndex].meanings).fadeIn(300)
                 })
