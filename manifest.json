@@ -4,12 +4,12 @@
    },
    "description": "Япон хэлний үг цээжлэхэд туслах нэмэлт",
    "icons": {
-      "128": "logo.jpg",
-      "16": "logo.jpg",
-      "48": "logo.jpg"
+      "128": "logo.png",
+      "16": "logo.png",
+      "48": "logo.png"
    },
    "manifest_version": 2,
    "name": "Memorize",
    "permissions": [  "webRequest", "storage" ],
-   "version": "1.1.0"
+   "version": "1.2.1"
 }
