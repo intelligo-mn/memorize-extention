@@ -1,6 +1,6 @@
 {
    "chrome_url_overrides": {
-      "newtab": "tab.html"
+      "newtab": "index.html"
    },
    "description": "Япон хэлний үг цээжлэхэд туслах нэмэлт",
    "icons": {
