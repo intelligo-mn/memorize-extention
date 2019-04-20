@@ -1,0 +1,57 @@
+<body>
+  <div id="settings"  (click)="toggleSettingsMenu()">
+    <img src="assets/settings-icon.png">
+  </div>
+
+  <div id="settings-menu">
+    <a class="settings-link" (click)="showMemorizeInfo()">Тохиргоо</a>
+      <div id="memorize-info">
+        
+        <!-- <input class="duudlaga" type="checkbox" [(ngModel)]='checked' (click)="toggle()"> -->
+
+        <p>Дуудлага</p>
+        <div class="clear-both"></div>
+        
+        <!-- <input class="meaning" type="checkbox" [(ngModel)]='checked' (click)="toggle()"> -->
+
+        <p>Орчуулга</p>
+        <div class="clear-both"></div>
+      </div>
+      <a class="settings-link" (click)='toggleList()'>Цээжлэх үгийн жагсаалт - Нийт <i>{{ words?.length }} үг</i></a>
+      <div id="list-wrapper">
+        <p *ngFor='let word of words'>{{ word.character }} - {{ word.meanings }}</p>
+      </div>
+  </div>
+    
+  <!-- <div class="settings-news" *ngIf="toggleNewsSeen == '0'">
+      <p [ngStyle]="{'color': textColor}">Тохиргоо хийх бол энд дарна </p>
+      <button (click)='toggleNewsUneen()'>Хаах</button>
+      <div class="clear-both"></div>
+    </div> -->
+    
+  <div class='mainView'>
+    
+    <!-- <div class="onboarding-next" *ngIf="nextMemorizeSeen == '0'">
+        <p [ngStyle]="{'color': textColor}">Үгнүүд дээр курсор аваачиж дараагийн цээжлэх үгрүү очно </p>
+        <button (click)='nextMemorizeUnsee()'>Хаах</button>
+        <div class="clear-both"></div>
+      </div> -->
+      
+      <div id="framer">
+          <div id="wrapper">
+            <div class="container"
+                *ngIf='flashWord'
+                [ngStyle]='{"color": "blue" }' >
+              <p id="character"
+                  lang="ja">{{flashWord.character}}</p>
+                <p id="duudlaga"
+                    lang="ja">{{flashWord.kanji}}<p>
+                <p id="meaning">{{flashWord.meanings}}</p>
+            </div>
+          </div>
+      </div>
+      
+      <a class="skip" ><button (click)="setNewMemorize()">Дараагийн үг</button></a>
+
+  </div>
+</body>
