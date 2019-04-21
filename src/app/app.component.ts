@@ -10,7 +10,6 @@ import { Observable } from 'rxjs';
 export class AppComponent implements OnInit {
   
   title = 'Memorize Extention';
-  bgUrl = 'assets/settings-icon.png';
   words: Observable<Word[]>;
   flashWord: Word;
   lastChangeDate = localStorage.lastChangeDate;
@@ -18,9 +17,10 @@ export class AppComponent implements OnInit {
   length = 0;
   menuIsToggled = !1;
   pickerIsToggled = !1;
-  memorizeIndex = 0;
+  memorizeIndex = 1;
   listIsToggled = !1;
   wordSize = 0;
+
   constructor(private wordService: WordService) { }
 
   ngOnInit() {
@@ -48,7 +48,6 @@ export class AppComponent implements OnInit {
     
     var newIndex = Math.floor(Math.random() * this.wordSize);
     localStorage.lastChangeDate = (new Date).getDate(), localStorage.lastMemorizeIndex = newIndex;
-    console.log(this.words[newIndex])
     this.flashWord = this.words[newIndex];
     
   }
@@ -96,6 +95,6 @@ export class AppComponent implements OnInit {
     this.listIsToggled = !1) : (document.querySelector("#list-wrapper").className = "show-list", 
     (document.querySelector("#memorize-info") as HTMLElement).style.display = "none"), 
     this.hidePicker(), 
-    this.listIsToggled = !0
+    this.listIsToggled = !0 
   }
 }

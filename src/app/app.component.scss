@@ -1,34 +1,4 @@
-* {
-    box-sizing: border-box;
-  }
-  
 
-  html, body {
-    margin: 0;
-    padding: 0;
-  }
-  
-
-  html {
-    position: relative;
-    min-height: 100%;
-  }
-  
-
-  body {
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../assets/back.jpg) !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: "Helvetica Neue", "Lucida Grande", sans-serif !important;
-    font-size: 100% !important;
-  }
-  
   /* line 28, ../../src/sass/_layout.scss */
   a {
     text-decoration: none;

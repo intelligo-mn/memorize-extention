@@ -9,8 +9,6 @@ export class WordService {
 
   constructor(private http: HttpClient) { }
 
-  private baseUrl = `https://memorize.intelligo.systems/api/words`;
-
   getWordsList(): Observable<any> {
     return this.http.get(`https://memorize.intelligo.systems/api/words`);
   }
