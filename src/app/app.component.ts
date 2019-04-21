@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent implements OnInit {
   
-  title = 'mem-ext';
+  title = 'Memorize Extention';
   bgUrl = 'assets/settings-icon.png';
   words: Observable<Word[]>;
   flashWord: Word;
