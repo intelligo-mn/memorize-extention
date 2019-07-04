@@ -19,7 +19,7 @@
     "@angular/platform-browser": "7.2.15",
     "@angular/platform-browser-dynamic": "7.2.15",
     "@angular/router": "7.2.15",
-    "core-js": "2.6.5",
+    "core-js": "2.6.9",
     "rxjs": "6.3.3",
     "tslib": "1.9.3",
     "zone.js": "0.8.29"
