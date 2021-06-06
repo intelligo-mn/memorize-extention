@@ -21,7 +21,7 @@
     "@angular/router": "8.2.9",
     "core-js": "3.2.1",
     "rxjs": "6.3.3",
-    "tslib": "1.9.3",
+    "tslib": "1.14.1",
     "zone.js": "0.10.2"
   },
   "devDependencies": {
